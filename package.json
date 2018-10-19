@@ -1,0 +1,23 @@
+{
+  "name": "chromedriver-version-matcher-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blackbaud-BobbyEarl/chromedriver-version-matcher-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blackbaud-BobbyEarl/chromedriver-version-matcher-tests/issues"
+  },
+  "homepage": "https://github.com/Blackbaud-BobbyEarl/chromedriver-version-matcher-tests#readme",
+  "dependencies": {
+    "chromedriver-version-matcher": "github:blackbaud-bobbyearl/chromedriver-version-matcher#win32-support"
+  }
+}
