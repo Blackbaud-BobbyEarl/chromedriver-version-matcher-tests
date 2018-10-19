@@ -1,4 +1,5 @@
 const { getChromeDriverVersion } = require('chromedriver-version-matcher');
+const RUNS = 4;
 
 function run(count) {
   console.log('Run', count, 'start');
@@ -11,6 +12,6 @@ function run(count) {
   });
 }
 
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < RUNS; i++) {
   run(i);
 }
