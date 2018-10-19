@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Blackbaud-BobbyEarl/chromedriver-version-matcher-tests#readme",
   "dependencies": {
-    "chromedriver-version-matcher": "github:blackbaud-bobbyearl/chromedriver-version-matcher#win32-support"
+    "chromedriver-version-matcher": "1.0.0-alpha.1"
   }
 }
